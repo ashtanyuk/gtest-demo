@@ -8,9 +8,9 @@ addons:
   apt:
     packages:
       - g++-5
-    sources:
-      - llvm-toolchain-precise-3.8
+    sources:      
       - ubuntu-toolchain-r-test
+      - llvm-toolchain-precise-3.8
 
 before_install:
   - pip install --user cpp-coveralls
