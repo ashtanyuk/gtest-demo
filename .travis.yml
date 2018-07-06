@@ -2,6 +2,8 @@ sudo: required
 
 language:
   - cpp
+compiler: gcc
+dist: trusty
 
 env: CXX=g++-5 CC=gcc-5
 addons:
