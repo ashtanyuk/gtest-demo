@@ -18,9 +18,10 @@ double divide_numbers(const double f1, const double f2)
 {
     return f1 / f2;
 }
+
 int * retNull()
 {
-    return nullptr;
+    return 0;
 }
 
 
