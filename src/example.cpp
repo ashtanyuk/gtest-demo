@@ -20,7 +20,7 @@ double divide_numbers(const double f1, const double f2)
 }
 int * retNull()
 {
-    return 0;
+    return nullptr;
 }
 
 
